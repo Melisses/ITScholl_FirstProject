@@ -45,3 +45,7 @@ body {
     content: url('../assets/check_icon.png');
     margin-right: 10px;
 }
+
+.main-article__paragraph {
+    margin-bottom: 15px;
+}

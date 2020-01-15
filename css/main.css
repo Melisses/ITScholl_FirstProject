@@ -1,9 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
 }
 .profile {
     width: 1280px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .section {
@@ -59,4 +61,18 @@ body {
 
 .section_aboutme {
     padding-right: 0;
+}
+
+.main-article__title2 {
+    font-size: 30px;
+    color: #445161;
+    margin-bottom: 20px;
+}
+
+.article_itsme {
+    width: 700px;
+}
+
+.main-article__paragraph {
+    margin-bottom: 15px ;
 }

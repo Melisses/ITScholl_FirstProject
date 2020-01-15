@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkgrey;
 }
-.profile {
+.profile, .footer {
     width: 1280px;
     margin: 0 auto;
     background-color: white;
@@ -12,7 +12,7 @@ body {
     padding: 50px;
 }
 
-.section_black {
+.section_black, .footer_black {
     background-color: #445162;
 }
 
@@ -57,10 +57,12 @@ body {
     background: url('../assets/plus_icon.png') no-repeat left top;
     padding-left: 40px;
     margin-bottom: 15px;
+    line-height: 1.2;
 }
 
 .section_aboutme {
     padding-right: 0;
+    padding-top: 10px;
 }
 
 .main-article__title2 {
@@ -75,4 +77,17 @@ body {
 
 .main-article__paragraph {
     margin-bottom: 15px ;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.section_green {
+    background-color: rgb(235, 233, 233);
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 20px;
 }

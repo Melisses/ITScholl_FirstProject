@@ -20,7 +20,7 @@ body {
     width: 40%;
 }
 
-.main-section {
+.section-flax {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -30,7 +30,7 @@ body {
     color: white;
 }
 
-.main-article__title {
+.main-article__title_h1 {
     font-size: 60px;
     margin-bottom: 50px;
 }
@@ -49,23 +49,22 @@ body {
 }
 
 .article_aboutme {
-    width: 50%;
-    margin-right: 25px;
+    width: 47%;
 }
 
 .article-aboutme__item {
     background: url('../assets/plus_icon.png') no-repeat left top;
     padding-left: 40px;
     margin-bottom: 15px;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
-.section_aboutme {
-    padding-right: 0;
-    padding-top: 10px;
+.section_aboutme, .section_skills {
+    padding: 0;
+    margin-top: 10px;
 }
 
-.main-article__title2 {
+.main-article__title_h2, .main-section__title_h2 {
     font-size: 30px;
     color: #445161;
     margin-bottom: 20px;
@@ -81,7 +80,7 @@ body {
     font-style: italic;
 }
 
-.section_green {
+.section_gray {
     background-color: rgb(235, 233, 233);
 }
 
@@ -90,4 +89,10 @@ body {
     color: white;
     line-height: 1.2;
     font-size: 20px;
+}
+
+.article-skills__title_h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
 }

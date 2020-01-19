@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Домашняя работа</title>
+    <title>Домашняя работа №1</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <main class="profile">
-        <section class="section main-section section-flax section_black">
-            <article class="main-article main-article_white">
-                <h1 class="main-article__title_h1">Домашнее задание №1</h1>
-                <ul class="main-article__list">
-                    <li class="main-article__item">Создана новая ветка home_work-1 в репозитории</li>
-                    <li class="main-article__item">Внесены изменения в шаблон сайта</li>
-                    <li class="main-article__item">Добавлен раздел контента "о себе" и подвал</li>
-                    <li class="main-article__item">Выполнен Pull request</li>
+    <header class="header header_color">
+        <section class="section">
+            <article class="article header-article article_white">
+                <h1 class="header-article__title">Домашнее задание №1.<br> BEM building.</h1>
+                <ul class="header-article__list">
+                    <li class="header-article__item">Создана новая ветка home_work-1 в репозитории</li>
+                    <li class="header-article__item">Внесены изменения в шаблон сайта</li>
+                    <li class="header-article__item">Добавлен раздел контента "о себе" и подвал</li>
+                    <li class="header-article__item">Выполнен Pull request</li>
                 </ul>
             </article>
             <img class="section__img" src="assets/fonshapki.jpg" alt="">
         </section>
-        <section class="section main-section section-flax section-itsme">
-            <img src="assets/img-1.jpg" alt="" height="300px">
-            <article class="main-article article_itsme">
-                <h2 class="main-article__title_h2">Обо мне</h2>
-                <p class="main-article__paragraph">
+    </header>
+    <main class="content">
+        <section class="section main-section">
+            <img class="main__img" src="assets/img-1.jpg" alt="">
+            <article class="article article-itsme">
+                <h2 class="title">Обо мне</h2>
+                <p class="text article-itsme__text">
                     Привет, меня зовут Ирина Стек. Я - начинающий веб-дизайнер и квалифицированный 
                     прикладной программист.
                     Увлекаться разработкой сайтов я начала с 2015 года и занималась самообучением
@@ -35,17 +37,18 @@
                     повышением квалификации в области веб-дизайна и переквалифицироваться на разработчика
                     frontend и backend.
                 </p>
-                <p class="main-article__paragraph">
+                <p class="text article-itsme__text">
                     Мои основные качества: ответственность, пунктуальность, сосредоточенность, 
                     коммуникабельность, трудолюбие, инициативность, креативность. У меня прекрасный сын,
                     2 любимицы-кошки и много цветущих растений.
                 </p>
             </article>
         </section>
-        <section class="section main-section section_gray">
-            <h2 align="center" class="main-section__title_h2">Мои достижения</h2>
-            <section class="section main-section section-flax section-aboutme">
-                <article class="main-article article-aboutme">
+
+        <section class="section section-aboutme section_color">
+            <h2 class="title title_center">Мои достижения</h2>
+            <article class="article article-aboutme">
+                <div class="article-aboutme__column">
                     <ul class="article-aboutme__list">
                         <li class="article-aboutme__item">
                             В связи с тем, что не было возможности 
@@ -72,8 +75,8 @@
                             и работают без сбоев.
                         </li>
                     </ul>
-                </article>
-                <article class="main-article article-aboutme">
+                </div>
+                <div class="article-aboutme__column">
                     <ul class="article-aboutme__list">
                         <li class="article-aboutme__item">
                             Первый свой сайт я написала в 2015 году. Но, как и положено сайту новичка, он не был идеален и не особо 
@@ -99,45 +102,44 @@
                             заниматься дальше и постигать новое.
                         </li>
                     </ul>
-                </article>
-            </section>
+                </div>
+            </article>
         </section>
-        <section class="section main-section">
-            <h2 align="center" class="main-section__title_h2">Мои навыки</h2>
-            <section class="section main-section section-flax section_skills">
-                <article class="main-article article-skills">
-                    <img src="assets/html.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">90%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/CSS3.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">80%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/php.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">75%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/js.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">50%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/jquery.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">70%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/Mysql.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">95%</h3>
-                </article>
-                <article class="main-article article-skills">
-                    <img src="assets/bootstrap.png" alt="" height="100px">
-                    <h3 align="center" class="article-skills__title_h3">75%</h3>
-                </article>
-
-            </section>
+        <section class="section section-skills">
+            <h2 class="title title_center">Мои навыки</h2>
+            <article class="article article-skills">
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/html.png" alt="">
+                    <h3 class="title_center article__title">90%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/CSS3.png" alt="">
+                    <h3 class="title_center article__title">80%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/php.png" alt="">
+                    <h3 class="title_center article__title">75%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/js.png" alt="">
+                    <h3 class="title_center article__title">50%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/jquery.png" alt="">
+                    <h3 class="title_center article__title">70%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/Mysql.png" alt="">
+                    <h3 class="title_center article__title">95%</h3>
+                </div>
+                <div class="article-skills__column">
+                    <img class="article__img" src="assets/bootstrap.png" alt="">
+                    <h3 class="title_center article__title">75%</h3>
+                </div>
+            </article>
         </section>
     </main>
-    <footer class="footer footer_black">
+    <footer class="footer footer_color">
         <section class="section footer-section">
             <address class="footer-address">
                 Мои контакты: <br>
